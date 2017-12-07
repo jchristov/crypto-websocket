@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  h1= title
+  //p Welcome to #{title}
+  div
+    div(class='row')
+      div(class='col-4')
+        h3
+        | gdax
+        div(id='gdax-orderbook')
+          p
+          | Loading ...
+      div(class='col-4')
+        h3
+        | bitstamp
+        div(id='bitstamp-orderbook')
+          p
+          | Loading ...
+      div(class='col-4')
+        h3
+        | bitfinex
+        div(id='bitfinex-orderbook')
+          p
+          | Loading ...
+
+
+  script(src='/javascripts/main.js')
