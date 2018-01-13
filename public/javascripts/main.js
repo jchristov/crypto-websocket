@@ -2,9 +2,11 @@
 
 (function(){
     var ws = new WebSocket('ws://localhost:10101');
+    /*
     var gdaxDom = document.getElementById('gdax-orderbook');
     var bitstampDom = document.getElementById('bitstamp-orderbook');
     var bitfinexDom = document.getElementById('bitfinex-orderbook');
+    */
     ws.onopen = function() {
       // Web Socket is connected, send data using send()
       //ws.send("Message to send");

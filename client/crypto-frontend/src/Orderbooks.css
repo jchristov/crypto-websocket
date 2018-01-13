@@ -1,0 +1,65 @@
+
+.book-data td {
+  text-align: right;
+  font-size: 1vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.book-data {
+  border: 1px green dashed;
+}
+
+.main-div {
+  width: 100%;
+  border: 1px blue solid;
+}
+
+.table-div {
+  display: inline-block;
+  border: 1px cyan dashed;
+
+
+}
+
+.main-table {
+  margin: 0px auto;
+  display: inline-block;
+
+}
+
+
+.fixed-td-width {
+  width: 4vw;
+}
+
+.historical-info {
+  display: inline-block;
+  border: 1px cyan dashed;
+
+  vertical-align: top;
+}
+
+.header-ul {
+  list-style: none;
+}
+
+.header-ul li {
+  display: inline-block;
+  margin: 0.9vw;
+}
+
+.title {
+  font-size: 2vw;
+  font-weight: bold;
+
+}
+
+.bg-green {
+  background-color: green;
+  color: white;
+}
+
+.bg-red {
+  background-color: red;
+  color: white;
+}

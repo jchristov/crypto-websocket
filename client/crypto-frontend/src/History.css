@@ -1,0 +1,8 @@
+.hist-div {
+  font-size: 0.9vw;
+
+}
+
+.hist-div td {
+  border-left: 1px gray dashed;
+}
